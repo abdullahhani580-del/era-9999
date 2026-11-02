@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://era-9999.ai.studio/sitemap.xml

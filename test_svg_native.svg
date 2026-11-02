@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200">
+  <rect width="400" height="200" fill="#0b1120"/>
+  <text x="380" y="50" font-family="Noto Sans Arabic" font-size="20" fill="#38bdf8" text-anchor="end" font-weight="bold">عنوان تجريبي</text>
+  <text x="380" y="90" font-family="Noto Sans Arabic" font-size="16" fill="#cbd5e1" text-anchor="end">سطر الشرح الأول بالتفصيل</text>
+  <text x="380" y="125" font-family="Noto Sans Arabic" font-size="16" fill="#94a3b8" text-anchor="end">سطر الشرح الثاني بالتفصيل</text>
+</svg>

@@ -1,0 +1,74 @@
+{
+  "entities": {
+    "UserData": {
+      "title": "UserData",
+      "description": "User account data containing synchronized profile, study settings, task manifests, schedule state, and game high scores across devices.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "The unique Firebase Auth UID of the user.",
+          "maxLength": 128
+        },
+        "email": {
+          "type": "string",
+          "description": "The user's Google account email address.",
+          "maxLength": 256
+        },
+        "displayName": {
+          "type": "string",
+          "description": "The user's display name.",
+          "maxLength": 100
+        },
+        "photoURL": {
+          "type": "string",
+          "description": "The user's Google avatar photo URL.",
+          "maxLength": 1024
+        },
+        "profile": {
+          "type": "object",
+          "description": "The chosen character profile, avatar ID, title, and quote."
+        },
+        "startTime": {
+          "type": "string",
+          "description": "Daily study start time (HH:MM).",
+          "maxLength": 10
+        },
+        "endTime": {
+          "type": "string",
+          "description": "Daily study end time (HH:MM).",
+          "maxLength": 10
+        },
+        "tasks": {
+          "type": "array",
+          "description": "List of study subject tasks in the manifest."
+        },
+        "scheduleResult": {
+          "type": "object",
+          "description": "Current generated quantum study schedule."
+        },
+        "highScores": {
+          "type": "object",
+          "description": "User high scores for break games."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp when the record was created."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp when the record was last updated."
+        }
+      },
+      "required": ["userId", "email"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserData",
+      "description": "Stores user data including study tasks, schedule, and chosen hero profile, accessible only by the authenticated owner."
+    }
+  }
+}

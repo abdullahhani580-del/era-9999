@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#0f172a"/>
+  <text x="400" y="80" font-family="Noto Sans Arabic" font-size="32" fill="#38bdf8" text-anchor="middle" font-weight="bold">دليل منظم المذاكرة الذكي</text>
+  <rect x="50" y="120" width="300" height="420" rx="16" fill="#1e293b" stroke="#3b82f6" stroke-width="3"/>
+  <image xlink:href="public/assets/aistudio/Screenshot_20261031_135939_com_android_chrome_ChromeTabbedActivity_615bb0e9.jpg" x="60" y="130" width="280" height="400" preserveAspectRatio="xMidYMid meet"/>
+  <rect x="380" y="150" width="370" height="200" rx="12" fill="#1e293b" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="730" y="190" font-family="Noto Sans Arabic" font-size="20" fill="#f8fafc" text-anchor="end" font-weight="bold">١. شاشة الإعدادات وحفظ السحاب</text>
+  <text x="730" y="230" font-family="Noto Sans Arabic" font-size="16" fill="#94a3b8" text-anchor="end">• حفظ البيانات تلقائياً بحساب Google</text>
+  <text x="730" y="265" font-family="Noto Sans Arabic" font-size="16" fill="#94a3b8" text-anchor="end">• التبديل بين النمط الليلي والنهاري</text>
+  <text x="730" y="300" font-family="Noto Sans Arabic" font-size="16" fill="#94a3b8" text-anchor="end">• دعم اللغة العربية بالكامل</text>
+</svg>
